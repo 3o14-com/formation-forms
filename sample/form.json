@@ -1,5 +1,6 @@
 {
   "title": "Sample Personal Form",
+  "fonts": ["Noto Serif Devanagari"],
   "fields": [
     {
       "key": "name_np",

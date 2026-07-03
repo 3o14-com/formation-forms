@@ -1,5 +1,5 @@
 #set page(paper: "a4", margin: (x: 2cm, y: 2.5cm))
-#set text(size: 11pt)
+#set text(size: 11pt, font: "Noto Serif Devanagari")
 
 // Read dynamically injected json values
 #let data = json("data.json")
@@ -13,7 +13,7 @@
 #grid(
   columns: (1.5fr, 3fr),
   row-gutter: 1.5em,
-  [*Name (Nepali):*], [#if data.at("name_np", default: "") != "" { data.at("name_np") } else { [_Not Provided_] }],
+  [*तपाईंको नाम:*], [#if data.at("name_np", default: "") != "" { data.at("name_np") } else { [_Not Provided_] }],
   [*Full Name:*], [#if data.at("full_name", default: "") != "" { data.at("full_name") } else { [_Not Provided_] }],
   [*Date of Birth:*], [#if data.at("dob", default: "") != "" { data.at("dob") } else { [_Not Provided_] }],
   [*Phone:*], [#if data.at("phone", default: "") != "" { data.at("phone") } else { [_Not Provided_] }],
