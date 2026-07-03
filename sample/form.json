@@ -1,0 +1,34 @@
+{
+  "title": "Sample Personal Form",
+  "fields": [
+    {
+      "key": "name_np",
+      "label": "Name (in Nepali)",
+      "type": "text",
+      "placeholder": "तपाईंको नाम"
+    },
+    {
+      "key": "full_name",
+      "label": "Full Name",
+      "type": "text",
+      "placeholder": "John Doe"
+    },
+    {
+      "key": "dob",
+      "label": "Date of Birth",
+      "type": "date"
+    },
+    {
+      "key": "phone",
+      "label": "Phone Number",
+      "type": "text",
+      "placeholder": "+1 234 567 890"
+    }
+  ],
+  "values": {
+    "name_np": "",
+    "full_name": "",
+    "dob": "",
+    "phone": ""
+  }
+}

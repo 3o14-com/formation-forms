@@ -1,0 +1,34 @@
+{
+  "title": "Employee Allowance Form (W-4)",
+  "fields": [
+    {
+      "key": "full_name",
+      "label": "Employee Full Name",
+      "type": "text",
+      "placeholder": "John Doe"
+    },
+    {
+      "key": "dob",
+      "label": "Date of Birth",
+      "type": "date"
+    },
+    {
+      "key": "marital_status",
+      "label": "Marital Status",
+      "type": "select",
+      "options": ["Single", "Married", "Head of Household"]
+    },
+    {
+      "key": "allowances",
+      "label": "Total Number of Allowances",
+      "type": "number",
+      "placeholder": "0"
+    }
+  ],
+  "values": {
+    "full_name": "",
+    "dob": "",
+    "marital_status": "Single",
+    "allowances": "0"
+  }
+}

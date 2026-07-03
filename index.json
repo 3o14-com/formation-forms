@@ -1,0 +1,16 @@
+{
+  "forms": [
+    {
+      "id": "sample",
+      "title": "Sample Personal Form",
+      "description": "Basic personal information form",
+      "category": "General"
+    },
+    {
+      "id": "w4",
+      "title": "Employee Allowance Form (W-4)",
+      "description": "US tax withholding certificate",
+      "category": "Tax"
+    }
+  ]
+}
