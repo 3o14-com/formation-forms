@@ -1,6 +1,11 @@
 {
   "title": "शिक्षण सुधार योजना (TIP)",
-  "fonts": ["Noto Serif Devanagari", "Times New Roman"],
+  "fonts": [
+    {
+      "family": "Noto Serif Devanagari",
+      "url": "https://fonts.gstatic.com/s/notoserifdevanagari/v28/yMJ2YVqM-3H5-3b5L5D7b4b3-5b3L5D7b4b.woff2"
+    },
+  ],
   "fields": [
     {
       "key": "teacher_name",
