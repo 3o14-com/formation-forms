@@ -6,7 +6,7 @@
 }
 
 #set underline(stroke: 0.5pt + black)
-#set text(font: ("Noto Serif"), size: 10pt)
+#set text(font: ("Noto Serif Devanagari", "Noto Serif"), size: 10pt)
 #set page(paper: "a4", margin: (x: 0.5in, y: 0.5in))
 #set par(leading: 8pt, spacing: 8pt)
 
