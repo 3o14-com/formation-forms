@@ -4,6 +4,14 @@
     {
       "family": "Noto Serif",
       "url": "https://raw.githubusercontent.com/3o14-com/formation-forms/main/fonts/NotoSerif.ttf"
+    },
+    {
+      "family": "Noto Serif",
+      "url": "https://raw.githubusercontent.com/3o14-com/formation-forms/main/fonts/NotoSerif-Italic.ttf"
+    },
+    {
+      "family": "Noto Serif Devanagari",
+      "url": "https://raw.githubusercontent.com/3o14-com/formation-forms/main/fonts/NotoSerifDevanagari.ttf"
     }
   ],
   "fields": [
